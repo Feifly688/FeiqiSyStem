@@ -1,0 +1,8 @@
+angry: 135
+contempt: 54
+disgust: 177
+fear: 75
+happy: 207
+neutral: 123
+sad: 84
+surprise: 249

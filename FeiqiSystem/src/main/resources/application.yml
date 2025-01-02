@@ -1,0 +1,23 @@
+#springboot????
+server:
+  port: 8080
+#?????
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://127.0.0.1:3306/feiqisystem?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&useSSL=false&allowMultiQueries=true
+  main:
+    allow-circular-references: true
+#MyBatis??
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.xfy.entity
+
+#????
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+  params: count=countSql
