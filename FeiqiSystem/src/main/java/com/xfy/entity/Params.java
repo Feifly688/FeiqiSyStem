@@ -7,18 +7,9 @@
 package com.xfy.entity;
 
 public class Params {
-    private String username;
     private Integer pageNum;
     private Integer pageSize;
-
-    public String getUsername() {
-        return username;
-    }
-
-    public void setUsername(String username) {
-        this.username = username;
-    }
-
+    private String username;
     public Integer getPageNum() {
         return pageNum;
     }
@@ -33,5 +24,13 @@ public class Params {
 
     public void setPageSize(Integer pageSize) {
         this.pageSize = pageSize;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
     }
 }
